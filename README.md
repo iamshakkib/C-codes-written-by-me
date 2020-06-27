@@ -17,7 +17,7 @@ int main()
 		printf("the seller has made a loss of %d",loss);
 	}
 }
-#now its time for odd even problem
+*now its time for odd even problem*
 
 
 #include<stdio.h>
@@ -36,4 +36,16 @@ int main()
 		printf("the nuber is odd");
 	}
 }
+*chal bhai doosra sawal functions pe chalte hain*
 
+#include<stdio.h>
+void add(int x, int y)
+{
+int result;
+result = x+y;
+printf("sum of %d and %d is %d.\n\n",x,y,result);
+}
+void main()
+{
+add(10,15);
+}
