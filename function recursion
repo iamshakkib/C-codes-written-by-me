@@ -16,3 +16,25 @@ int fact(int a)
     res=a*fact(a-1);
     return res;
 }
+
+//*doosra sawal mama*//
+
+
+#include<stdio.h>
+int add(int a);
+int main()
+{
+	int a,sum;
+	printf("enter the value of the digit ");
+	scanf("%d",&a);
+	sum = add(a);
+	printf("the sum of %d is %d",a,sum);
+	
+}
+int add(int a)
+{
+	if(a==0)
+	return 0;
+	else
+	return((a%10)+add(a/10));
+}
